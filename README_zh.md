@@ -60,6 +60,10 @@
 
 配合 QFIL 或 QDL 等刷机工具使用，通过 Firehose 协议将固件刷写到设备。
 
+`qli2.0` 分支仅包含启动固件。使用其中的 `rawprogram*.xml` 刷机前，
+请从对应的 Yocto qcomflash 输出中补充 `efi.bin`、`dtb.bin` 和
+`rootfs.img`。
+
 ## 注意事项
 
 - 刷机有风险，请确保了解操作流程

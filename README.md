@@ -60,6 +60,10 @@ Bootloader and firmware files for Qualcomm-based RubikPi3 development board.
 
 Use with flashing tools like QFIL or QDL to flash firmware via Firehose protocol.
 
+The `qli2.0` branch contains boot assets only. Before using its
+`rawprogram*.xml` files, add the matching `efi.bin`, `dtb.bin`, and
+`rootfs.img` files from the Yocto qcomflash output.
+
 ## Notes
 
 - Flashing firmware carries risks, ensure you understand the process
